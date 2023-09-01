@@ -1,10 +1,3 @@
-let unorderedListElement = document.createElement("UL");
-
-const fruits = ["Apple", "Banana", "Sanana"];
-
-for (const index in fruits) {
-    let listItemElement = document.createElement("LI");
-    listItemElement.innerHTML = fruits[index]
-    unorderedListElement.appendChild(listItemElement)
-}
-document.body.appendChild(unorderedListElement)
+let paragraphElement = document.createElement("P");
+paragraphElement.innerHTML = "This website is a canvas for my impluses"
+document.body.appendChild(paragraphElement)
